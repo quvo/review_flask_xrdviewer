@@ -5,8 +5,7 @@ $ python3 -m venv myenv
 
 ## 仮想環境をactivate
 ```sh
-$ source ./myenv/bin/activate
-```
+$ source ./myenv/bin/activate ```
 **注意**: 使っているシェルが`bash`でなく`csh`や`fish`ならちょっとかわる。
 ```csh
 $ source ./myenv/bin/activate.csh
@@ -34,3 +33,4 @@ $ python flaskxrdviewer.py
 
 ## 注意
 * XRD Data Listのチェックボックスいらってもグラフ消えたり出たりしない場合は`command + shift + R`でブラウザをキャッシュを無視してリロード
+
